@@ -1,0 +1,147 @@
+body {
+  background-color: #f0f8ff;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #e0f7fa;
+  border-bottom: 2px solid #007acc;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  display: flex;
+}
+
+.restaurant-card:hover {
+  cursor: pointer;
+  transition: transform .2s;
+  transform: scale(1.05);
+}
+
+.search:hover {
+  background-color: #005f8c;
+}
+
+.logo {
+  width: 100px;
+}
+
+.nav-items > ul {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-items > ul > li {
+  margin: 0 10px;
+  padding: 10px 15px;
+  transition: background-color .3s;
+}
+
+.nav-items > ul > li:hover {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+
+.res-card {
+  border: 1px solid #007acc;
+  border-radius: 10px;
+  width: 450px;
+  height: 350px;
+  margin: 15px;
+  transition: transform .2s;
+  overflow: hidden;
+  box-shadow: 0 4px 8px #0000001a;
+}
+
+.res-logo {
+  width: 90%;
+  padding: 5px;
+}
+
+.res-container {
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+}
+
+.Login {
+  color: #fff;
+  cursor: pointer;
+  background-color: #007acc;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  transition: background-color .3s;
+}
+
+.Login:hover {
+  background-color: #005f8c;
+}
+
+.User-Card {
+  background-color: #fff;
+  border: 1px solid #007acc;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 4px #0000001a;
+}
+
+.searchBtn {
+  color: #fff;
+  cursor: pointer;
+  background-color: #007acc;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.searchBtn:hover {
+  background-color: #005f8c;
+}
+
+.restaurant-image {
+  object-fit: cover;
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+  padding: 10px;
+}
+
+.footer {
+  background-color: #e0f7fa;
+  border-bottom: 2px solid #007acc;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  display: flex;
+}
+
+.banner {
+  object-fit: cover;
+}
+
+.contact-form {
+  justify-content: space-between;
+  display: flex;
+}
+
+.input-group {
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  margin: 8px 0;
+  padding: 12px 20px;
+  display: inline-block;
+}
+
+.restaurant-card {
+  object-fit: cover;
+  width: 450px;
+  height: 100%;
+}
+/*# sourceMappingURL=index.9e4c6fd2.css.map */

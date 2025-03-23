@@ -1,0 +1,167 @@
+
+/* General body styles */  
+body {  
+    font-family: 'Arial', sans-serif; /* Clean font */  
+    margin: 0;  
+    background-color: #f0f8ff; /* Light background for contrast */  
+}  
+
+/* Header styles */  
+.header {  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center; /* Center items vertically */  
+    border-bottom: 2px solid #007acc; /* Add a bottom border */  
+    background-color: #e0f7fa; /* Softer cyan */ 
+    
+    padding: 10px 20px; /* Add some padding */  
+}  
+
+/* Restaurant card hover effect */  
+.restaurant-card:hover {  
+    cursor: pointer;  
+    transform: scale(1.05); /* Scale effect on hover */  
+    transition: transform 0.2s; /* Smooth transition */  
+    
+}  
+
+
+ 
+
+.search:hover {  
+    background-color: #005f8c; /* Darken on hover */  
+}  
+
+/* Logo styling */  
+.logo {  
+    width: 100px;  
+}  
+
+/* Navigation styles */  
+.nav-items > ul {  
+    display: flex;  
+    list-style-type: none;  
+    font-size: 18px; /* Adjust font size */  
+    margin: 0; /* Remove margin */  
+    padding: 0; /* Remove padding */  
+}  
+
+.nav-items > ul > li {  
+    padding: 10px 15px; /* More spacious padding */  
+    margin: 0 10px; /* Space between items */  
+    transition: background-color 0.3s; /* Smooth transition */  
+}  
+
+.nav-items > ul > li:hover {  
+    background-color: #f1f1f1; /* Hover effect */  
+    border-radius: 5px; /* Rounded corners on hover */  
+}  
+
+/* Restaurant card */  
+.res-card {  
+    margin: 15px;  
+    width: 450px; /* Adjust size */  
+    height: 350px; /* Adjust size */  
+    border: 1px solid #007acc; /* Change the border to match theme */  
+    border-radius: 10px; /* Rounded corners */  
+    overflow: hidden; /* Ensure overflow is hidden */  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */  
+    transition: transform 0.2s; /* Transition for scaling */ 
+}  
+
+
+
+/* Restaurant logo inside the card */  
+.res-logo {  
+    padding: 5px; /* Adjust padding */  
+    width: 90%; /* Adjust the width */  
+}  
+
+/* Container for restaurant cards */  
+.res-container {  
+    display: flex;  
+    flex-wrap: wrap;  
+    justify-content: center; /* Center the cards */  
+}  
+
+/* Login button */  
+.Login {  
+    padding: 10px 20px; /* Adjust padding */  
+    background-color: #007acc; /* Match the theme color */  
+    color: white; /* Text color */  
+    border: none;  
+    border-radius: 5px; /* Rounded corners */  
+    cursor: pointer;  
+    transition: background-color 0.3s; /* Smooth transition */  
+}  
+
+.Login:hover {  
+    background-color: #005f8c; /* Darken on hover */  
+}  
+
+/* User Card styles */  
+.User-Card {  
+    padding: 15px; /* More padding for comfort */  
+    border: 1px solid #007acc; /* Border to match theme */  
+    border-radius: 10px; /* Rounded corners */  
+    background-color: #ffffff; /* White background */  
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */  
+}  
+
+/* Search button inside the card */  
+.searchBtn {  
+    background-color: #007acc; /* Match theme */  
+    border: none;  
+    border-radius: 5px; /* Rounded corners */  
+    color: white; /* Text color */  
+    padding: 10px 20px; /* Padding */  
+    cursor: pointer;  
+}  
+
+.searchBtn:hover {  
+    background-color: #005f8c; /* Darken on hover */  
+}  
+
+/* Restaurant image styles */  
+.restaurant-image {  
+    padding: 10px;  
+    border-radius: 10px; /* Slightly rounded corners for images */  
+    max-width: 100%; /* Responsive */  
+    height: auto; /* Maintain aspect ratio */  
+    object-fit: cover;
+}  
+
+.footer{  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center; /* Center items vertically */  
+    border-bottom: 2px solid #007acc; /* Add a bottom border */  
+    background-color: #e0f7fa; /* Softer cyan */  
+    padding: 10px 20px; /* Add some padding */  
+}  
+.banner{
+    object-fit: cover;
+
+}
+
+.contact-form {  
+    display: flex;  
+    justify-content: space-between;  
+}
+
+.input-group{
+
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.restaurant-card{
+    width: 450px; ;
+    height:100% ;
+    object-fit: cover;
+}
+
